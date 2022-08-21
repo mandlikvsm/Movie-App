@@ -1,0 +1,13 @@
+.outer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .inner{
+
+        width: 60vw;
+        height: 80vh;
+    }
+
+}
