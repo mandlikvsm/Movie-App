@@ -1,6 +1,5 @@
 .row{
     padding: 1rem;
-    
     background-color:rgb(16, 16, 16);
 
     h2{
@@ -12,11 +11,8 @@
 
     >div{
         display: flex;
-        // justify-content: space-evenly;
         overflow-x: auto;
         justify-content: center;
-        // margin: 2rem;
-        // flex-direction: column;
     }
 
 }

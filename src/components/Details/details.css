@@ -1,0 +1,50 @@
+
+.about{
+    background-color: hsl(219, 48%, 8%);
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutContainer{
+    background-color: hsl(219, 48%, 8%);
+    width: 50vw;
+    height: 85vh;
+    position: absolute;
+    right: 0;
+    display: flex;
+    padding: 2vmax;
+    box-sizing: border-box;
+    transform: translateX(-100vw) translateY(0%) rotateZ(-360deg);
+    animation: aboutAnimation   1s ease-in forwards ;
+}
+
+.backdropImg{
+    height: 100%;
+    width: 100%;
+}
+
+.aboutContainer2{
+    width: 50vw;
+    height: 85vh;
+    background-color: hsl(219, 48%, 8%);
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.281);
+    position: absolute;
+    left: 0;
+    align-items: center;
+    padding: 2vmax;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-100vw) translateY(0%) rotateZ(-360deg);
+    animation: aboutAnimation   1s ease-in forwards ;
+}
+
+
+@keyframes aboutAnimation {
+    to {
+        transform: translateX(0%) translateY(0%);
+    }
+    
+}

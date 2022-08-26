@@ -1,0 +1,17 @@
+.outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .inner{
+        width: 40vw;
+        height: 60vh;
+    }
+
+}
+
+.error {
+    position: absolute;
+    color: red;
+    font-size: .6rem;
+}

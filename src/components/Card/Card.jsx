@@ -1,19 +1,19 @@
 import React from 'react'
-import './card.scss'
 import { Link } from 'react-router-dom';
+import './card.scss'
 
 
-const Card = ({ img ,arr}) => {
+const Card = ({ img ,id}) => {
+
+  const handler = () => {
     
-  // console.log(arr);
+  }
+    
   return (
     <>
-      
-      <Link to="/details"><img className='card' src={img} alt="cover" /></Link>
-
+      <Link to={`/details/${id}`}><img className='card' src={img} alt="cover" onClick={handler} /></Link>
      
-      
-      
+
       </>
   )
 }
